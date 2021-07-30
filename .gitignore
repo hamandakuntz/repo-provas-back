@@ -2,3 +2,5 @@ dist
 node_modules
 .env*
 !.env.example
+
+psql -h ec2-34-228-100-83.compute-1.amazonaws.com -p 5432 -U pcvlpjzyxkedzv d8e7k5u85hot4k
