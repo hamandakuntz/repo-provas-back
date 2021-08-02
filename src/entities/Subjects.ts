@@ -7,7 +7,4 @@ export default class Subjects {
 
   @Column()
   name: string;
-
-  @Column()
-  period: string;
 }

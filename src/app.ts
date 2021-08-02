@@ -14,6 +14,8 @@ app.use(express.json());
 
 app.get("/exams", examsController.getExams);
 app.get("/teachers", examsController.getTeachers);
+app.get("/subjects", examsController.getSubjects);
+app.get("/subject/:id", examsController.findBySubjectId);
 
 
 export async function init () {

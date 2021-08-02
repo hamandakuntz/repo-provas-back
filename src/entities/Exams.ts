@@ -19,4 +19,7 @@ export default class Exams {
 
   @Column()
   teacherId: number;
+
+  @Column()
+  semesterId: number;
 }
